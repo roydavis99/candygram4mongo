@@ -1,0 +1,26 @@
+{
+  "name": "candygram4mongo",
+  "version": "1.0.0",
+  "description": "Mongo and Cherrio project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roydavis99/candygram4mongo.git"
+  },
+  "author": "Roy Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roydavis99/candygram4mongo/issues"
+  },
+  "homepage": "https://github.com/roydavis99/candygram4mongo#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.14"
+  }
+}
